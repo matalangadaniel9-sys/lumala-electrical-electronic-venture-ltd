@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lumala Electrical & Electronic venture LTD | Electronic Components & Measurement Solutions</title>
+
+<style>
+/* ---------- GLOBAL ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f4f6f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: #0a2540;
+}
+
+section {
+  padding: 70px 8%;
+}
+
+/* ---------- HEADER ---------- */
+header {
+  background: linear-gradient(120deg, #0a2540, #003f7d);
+  color: white;
+  padding: 25px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 28px;
+  color: white;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 14px;
+  margin-right: 10px;
+  font-weight: 600;
+  border-right: 1px solid rgba(255,255,255,0.18);
+  transition: background 0.15s, color 0.15s;
+}
+
+nav a:last-child {
+  border-right: none;
+}
+
+nav a:hover {
+  text-decoration: none;
+  background: rgba(255,255,255,0.06);
+  border-radius: 6px;
+}
+
+/* ---------- TOP BAR (address in header) ---------- */
+.top-bar {
+  background: #06192d;
+  color: #fff;
+  padding: 8px 8%;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* ---------- HERO ---------- */
+.hero {
+  background: url("https://images.unsplash.com/photo-1581092160613-bd1b45d7c52c") center/cover no-repeat;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.hero button {
+  padding: 14px 32px;
+  background: #ff9800;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background: #e68900;
+}
+
+/* ---------- ABOUT ---------- */
+.about {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+/* ---------- PRODUCTS ---------- */
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.product-card {
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: transform 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
+}
+
+.product-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* ---------- SERVICES ---------- */
+.services {
+  background: #eef2f7;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.service-box {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* ---------- BRANDS ---------- */
+.brands {
+  text-align: center;
+}
+
+.brand-logos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.brand-logos img {
+  height: 50px;
+  opacity: 0.7;
+}
+
+/* ---------- CONTACT ---------- */
+.contact {
+  background: #0a2540;
+  color: white;
+  text-align: center;
+}
+
+.contact h2 {
+  color: white;
+}
+
+.contact p {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+  background: #06192d;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav {
+    margin-top: 15px;
+  }
+
+  .hero h2 {
+    font-size: 36px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="top-bar">
+  Lumala Electrical & Electronic venture LTD | GESA FLATS OFF NORTH AIRPORT ROAD, GROUND FLOOR EMBAKASI. P.O.BOX 63051-00200 NAIROBI, KENYA. TELL. +254 112467686
+</div>
+
+<header>
+  <h1>Lumala Electrical & Electronic venture LTD</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#mission">Mission</a>
+    <a href="#products">Products</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h2>Electronic Components & Measurement Experts</h2>
+    <p>Precision electronic components, calibration services, and industrial measurement solutions you can trust.</p>
+    <button>View Products</button>
+  </div>
+</section>
+
+<section id="mission" class="about">
+  <h2>Our Mission</h2>
+  <p>We search for the best quality products &amp; technical know-how and manage the resources most effectively to reach out to our valued customers with quality, trust and value for money.</p>
+</section>
+
+<section id="about" class="about">
+  <h2>About Us</h2>
+  <p>
+    Lumala Electrical & Electronic venture LTD was established in 2008 to address the customer requirement for electrical, ELECTRICAL AND STRUCTURAL CABLING WORKS. We pursue our passion in design, solution, supply & service requirements for various industries like Steel, Cement, Plastic, domestic use, and many more. We also provide services for consultancy, design, installation, maintenance, and repairs of industrial and domestic electrical and control products.
+  </p>
+  <p>
+    We possess more than 10 years of experience and skilled resources to address the customers’ concerned areas of our field of expertise relating to international standards, quality, trust, and cost-effective solutions.
+  </p>
+  <p>
+    Our focus is to provide quality services to customers, and our commitments: The customer is happy and satisfied.
+  </p>
+</section>
+
+<section id="products">
+  <h2>Our Products</h2>
+  <div class="products-grid">
+    <div class="product-card">
+      <h3>Overview</h3>
+      <p>We provide complete electrical installation and structured cabling solutions for residential, commercial, and industrial environments. Our services are designed to meet international electrical codes, safety standards, and instrumentation requirements, ensuring reliable power distribution and accurate signal transmission.</p>
+      <p>Our shop specializes in the supply, installation, testing, and commissioning of electrical systems and low-current infrastructure that support modern automation, communication, and measurement systems.</p>
+    </div>
+
+    <div class="product-card">
+      <h3>Electrical Works Services</h3>
+      <p>We offer professional electrical services, including:</p>
+      <ul>
+        <li><strong>Power Distribution Systems</strong>
+          <ul>
+            <li>Main &amp; sub-distribution boards</li>
+            <li>Circuit breakers, isolators, and protection devices</li>
+            <li>Cable sizing and load calculations</li>
+          </ul>
+        </li>
+        <li><strong>Industrial &amp; Commercial Wiring</strong>
+          <ul>
+            <li>Conduit and trunking installations</li>
+            <li>Armoured and non-armoured cable laying</li>
+            <li>Earthing and lightning protection systems</li>
+          </ul>
+        </li>
+        <li><strong>Instrumentation Power Supply</strong>
+          <ul>
+            <li>24V DC and AC power for transmitters and controllers</li>
+            <li>Panel wiring for PLCs, relays, and control systems</li>
+            <li>Signal and power segregation to reduce interference</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <div class="product-card">
+      <h3>Testing &amp; Commissioning</h3>
+      <ul>
+        <li>Insulation resistance testing</li>
+        <li>Continuity and polarity testing</li>
+        <li>Voltage, current, and earth resistance measurements</li>
+      </ul>
+    </div>
+
+    <div class="product-card">
+      <h3>Structured Cabling Works</h3>
+      <p>We design and install structured cabling systems that ensure high-quality signal integrity and future scalability.</p>
+      <ul>
+        <li><strong>Data &amp; Communication Cabling</strong>
+          <ul>
+            <li>Cat6 / Cat6A / Fiber Optic installations</li>
+            <li>Network racks, patch panels, and cable management</li>
+            <li>LAN, WAN, and Internet infrastructure</li>
+          </ul>
+        </li>
+        <li><strong>Instrumentation &amp; Control Cabling</strong>
+          <ul>
+            <li>Control cables for sensors and transmitters</li>
+            <li>Signal cabling for 4–20mA, HART, Modbus, and digital I/O</li>
+            <li>Shielded and twisted pair cable installations</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <div class="product-card">
+      <h3>ELV Systems</h3>
+      <ul>
+        <li>CCTV cabling</li>
+        <li>Access control systems</li>
+        <li>Fire alarm and BMS cabling</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="services">
+  <h2>Our Services</h2>
+  <div class="services-grid">
+    <div class="service-box">
+      <h3>Electronic Components Supply</h3>
+      <p>Wide range of process and measurement electronic components.</p>
+    </div>
+    <div class="service-box">
+      <h3>Calibration & Testing</h3>
+      <p>Professional calibration services for accuracy and compliance.</p>
+    </div>
+    <div class="service-box">
+      <h3>Installation & Support</h3>
+      <p>On-site installation, commissioning, and technical support.</p>
+    </div>
+  </div>
+</section>
+
+<section class="brands">
+  <h2>Trusted Brands</h2>
+  <div class="brand-logos">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Siemens-logo.svg">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Schneider_Electric_Logo.svg">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Emerson_Electric_Logo.svg">
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact Us</h2>
+  <address>
+    <p>Lumala Electrical & Electronic venture LTD</p>
+    <p>GESA FLATS OFF NORTH AIRPORT ROAD,</p>
+    <p>GROUND FLOOR EMBAKASI.</p>
+    <p>P.O.BOX 63051-00200 NAIROBI, KENYA.</p>
+    <p>Tel: +254 112467686</p>
+    <p>Email: info@lumala.CO.KE</p>
+  </address>
+</section>
+
+<footer>
+  <div style="padding:12px 8%; color:#ccc; font-size:14px;">
+    <p>Lumala Electrical & Electronic venture LTD</p>
+    <p>GESA FLATS OFF NORTH AIRPORT ROAD, GROUND FLOOR EMBAKASI.</p>
+    <p>P.O.BOX 63051-00200 NAIROBI, KENYA.</p>
+    <p>Tel: +254 112467686</p>
+  </div>
+  <div style="padding:10px 8%; color:#999; font-size:12px;">© 2026 Lumala Electrical & Electronic venture LTD | Electronic Components & Measurement Solutions</div>
+</footer>
+
+</body>
+</html>
